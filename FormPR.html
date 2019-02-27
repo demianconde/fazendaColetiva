@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>fazendaColetiva</title>
+       	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="FormPR.css">
+	
+
+		
+		
+	</head>
+	
+	
+	<body>
+	
+			<nav>
+				<div>
+					<ul class="barratopo">
+						<h5>fazendaColetiva</h5>
+					</ul>
+				</div>
+			</nav>
+
+						
+			<div class="wrapper">
+				<div>
+					<label id="firstName">Nome</label>
+					<input type="text" />
+				</div>
+				<div>
+					<label>Email</label>
+					<input type="mail" />
+				</div>
+				<div>
+					<label>Telefone</label>
+					<input type="tel" />
+				</div>  
+				<div>
+					<label>Área da Propriedade</label>
+					<input type="tel" />
+				</div>  
+			</div>
+		
+			
+			<section>
+				<div>
+					<label>Atividades de Interesse</label>
+				</div>  
+				
+				<div class="coluna1">
+					<div class="checkbox">
+						<label cl><input type="checkbox" value="soja">Soja</label>
+					</div>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Milho</label>
+					</div>
+
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Sorgo</label>
+					</div>
+					
+					<div class="checkbox">
+					<label><input type="checkbox" value="">Trigo</label>
+				</div>
+			</div>
+				
+				<div class="coluna2">
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Algodão</label>
+					</div>
+
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Hortaliças</label>
+					</div>
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Pecuária</label>
+					</div>
+					
+					<div class="checkbox">
+						<label><input type="checkbox" value="">Outros</label>
+					</div>
+				</div>
+			
+			</section>
+		
+		<form class="responsavel">
+			<label id="rt">Possui Responsável Técnico?</label>
+			<input type="radio" name="tecnico" value="true"><label>Sim</label>
+			<input type="radio" name="tecnico" value="true"><label>Não</label>
+		</form>
+		
+		<div>
+			<label>Endereço da Fazenda</label>
+			<input type="text">
+		</div>
+		
+		<form method="get" action="/dashboardpr.html">
+   				<button type="submit" class="cta">Sou Produtor Rural</button>
+			</form>

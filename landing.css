@@ -1,0 +1,154 @@
+.container {
+	font-family: Raleway, sans-serif;
+	background-color: #E0E0E0;
+	padding-bottom: 80px;
+	margin: 0px;
+}
+
+p {
+	font-size: 3em;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+	text-align: center;
+	}
+
+h3 {font-size: 1.5em;
+}
+
+h4{
+	font-size: 1em;
+}
+
+
+h5 {
+	font-size: 1.25em;
+}
+.barratopo {
+	background-color: #53A318;
+	height: 120px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-weight: bold;
+	font-size: 4em;
+	color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+	position: fixed;
+	top: 0;
+	width: 100%;
+	}
+
+.slogan {
+	font-size: 3em;
+	text-align: center;
+	margin-top: 120px;
+	padding: 32px;
+	}
+
+.card {
+	justify-content: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 32px;
+	border-radius: 0px 0px 20px 20px;
+	
+}
+
+.card-titulo {
+	text-align: center;
+	background-color: #2EA2DC;
+	border-radius: 10px 10px 0px 0px;
+	height: 100px;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	
+	}
+
+.card-conteudo {
+	text-align: center;
+	background-color: #ECECEC;
+	border-radius: 0px 0px 20px 20px;	
+	padding: 32px;
+	}
+
+.cta {
+  width: 50%;
+	margin-top: 32px;
+	margin-left: 25%;
+	margin-right: 25%;
+  	height: 80px;
+  	border-radius: 6px;
+  	border: solid 1px #ff7a00;
+  	background-color: #ff7a00;
+  	display: flex;
+	justify-content: center;
+	font-size: 3em;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+}
+
+
+
+.wobble-hor-bottom{-webkit-animation:wobble-hor-bottom 3s both;animation:wobble-hor-bottom 3s both}
+@-webkit-keyframes wobble-hor-bottom{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}}@keyframes wobble-hor-bottom{0%,100%{-webkit-transform:translateX(0);transform:translateX(0);-webkit-transform-origin:50% 50%;transform-origin:50% 50%}15%{-webkit-transform:translateX(-30px) rotate(-6deg);transform:translateX(-30px) rotate(-6deg)}30%{-webkit-transform:translateX(15px) rotate(6deg);transform:translateX(15px) rotate(6deg)}45%{-webkit-transform:translateX(-15px) rotate(-3.6deg);transform:translateX(-15px) rotate(-3.6deg)}60%{-webkit-transform:translateX(9px) rotate(2.4deg);transform:translateX(9px) rotate(2.4deg)}75%{-webkit-transform:translateX(-6px) rotate(-1.2deg);transform:translateX(-6px) rotate(-1.2deg)}}
+
+.vibrate-1 {
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+
+@-webkit-keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}@keyframes vibrate-1{0%{-webkit-transform:translate(0);transform:translate(0)}20%{-webkit-transform:translate(-2px,2px);transform:translate(-2px,2px)}40%{-webkit-transform:translate(-2px,-2px);transform:translate(-2px,-2px)}60%{-webkit-transform:translate(2px,2px);transform:translate(2px,2px)}80%{-webkit-transform:translate(2px,-2px);transform:translate(2px,-2px)}100%{-webkit-transform:translate(0);transform:translate(0)}}
+
+
+
+.comoFunciona {
+	font-family: Raleway;
+	font-size: 4em;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: normal;
+  	color: #108110;
+	margin-top: 32px;
+	}
+
+.step {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%;
+	margin: 32px;
+	background-color: white;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	}
+
+img {
+	float: left;
+	width: 15%;
+	height: auto;
+}
+
+.texto-step {
+	display:flex;
+	margin-left: 32px;
+	text-align: left;
+	margin-bottom: 16px;
+}
+
+section {
+	margin-top: 32px;
+}
